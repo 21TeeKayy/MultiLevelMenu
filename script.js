@@ -13,18 +13,25 @@ function showMenu(options) {
     scene.innerHTML = ""; // Очистка сцены перед обновлением
 
     options.forEach((option, index) => {
-        const x = (index % 3) * 3 - 3; // Размещение в сетке по 3 объекта в ряд
+        const x = (index % 3) * 3 - 3; // Размещение в сетке
         const y = Math.floor(index / 3) * -3 + 1;
 
-        const entity = document.createElement("a-box");
+        // Выбираем форму в зависимости от уровня
+        let shape;
+        if (option.level === 0) shape = "a-box";
+        else if (option.level === 1) shape = "a-sphere";
+        else shape = "a-cylinder";
+
+        const entity = document.createElement(shape);
         entity.setAttribute("position", `${x} ${y} -4`);
         entity.setAttribute("color", option.color);
         entity.setAttribute("depth", "1");
         entity.setAttribute("width", "1");
         entity.setAttribute("height", "1");
+        entity.setAttribute("radius", "0.7");
         entity.setAttribute("class", "clickable");
 
-        // Обработчик клика
+        // Добавляем обработчик клика
         entity.addEventListener("click", () => navigateMenu(option));
 
         // Добавляем текстовую метку
@@ -49,8 +56,32 @@ function navigateMenu(option) {
         currentPath.push(option);
         showMenu(option.options);
     } else {
-        alert("Вы выбрали: " + option.name);
+        showSingleItem(option);
     }
+}
+
+function showSingleItem(option) {
+    const scene = document.getElementById("menu-container");
+    scene.innerHTML = "";
+
+    const entity = document.createElement("a-cylinder");
+    entity.setAttribute("position", "0 1 -4");
+    entity.setAttribute("color", option.color);
+    entity.setAttribute("radius", "1");
+    entity.setAttribute("height", "2");
+
+    // Добавляем текстовое название предмета
+    const text = document.createElement("a-text");
+    text.setAttribute("value", option.name);
+    text.setAttribute("align", "center");
+    text.setAttribute("position", `0 2.5 -4`);
+    text.setAttribute("color", "black");
+    text.setAttribute("width", "2");
+
+    scene.appendChild(entity);
+    scene.appendChild(text);
+    document.getElementById("menu-path").textContent = getPathText();
+    document.getElementById("back-button").style.display = "block";
 }
 
 function goBack() {
