@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Многоуровневое меню</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="script.js"></script>
+    <script src="utils.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="menu-path">Главное меню</h1>
+
+    <button id="back-button" onclick="goBack()" style="display: none;">Назад</button>
+    <button onclick="saveMenu()">Сохранить меню</button>
+
+    <a-scene>
+        <a-camera position="0 2 4">
+            <a-cursor color="black"></a-cursor>
+        </a-camera>
+        <a-entity id="menu-container"></a-entity>
+    </a-scene>
+</body>
+</html>
