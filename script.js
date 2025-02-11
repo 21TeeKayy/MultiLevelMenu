@@ -71,18 +71,16 @@ function showSingleItem(option) {
     entity.setAttribute("height", "2");
 
     const text = document.createElement("a-text");
-    text.setAttribute("value", `${option.name}: ${option.price}`);
     text.setAttribute("align", "center");
     text.setAttribute("position", "0 2.5 -4");
     text.setAttribute("color", "black");
-    text.setAttribute("width", "5");
+    text.setAttribute("width", "4");
 
     scene.appendChild(entity);
     scene.appendChild(text);
     document.getElementById("menu-path").textContent = getPathText();
     document.getElementById("back-button").style.display = "block";
 }
-
 
 function goBack() {
     currentPath.pop();

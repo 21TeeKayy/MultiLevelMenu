@@ -13,20 +13,17 @@
                         {
                             "name": "Карбонара",
                             "level": 2,
-                            "color": "#FFA07A",
-                            "price": "450₽"
+                            "color": "#FFA07A"
                         },
                         {
                             "name": "Болоньезе",
                             "level": 2,
-                            "color": "#FF6347",
-                            "price": "500₽"
+                            "color": "#FF6347"
                         },
                         {
                             "name": "Альфредо",
                             "level": 2,
-                            "color": "#FF4500",
-                            "price": "550₽"
+                            "color": "#FF4500"
                         }
                     ]
                 },
@@ -38,14 +35,12 @@
                         {
                             "name": "Рибай",
                             "level": 2,
-                            "color": "#E34234",
-                            "price": "1200₽"
+                            "color": "#E34234"
                         },
                         {
                             "name": "Филе Миньон",
                             "level": 2,
-                            "color": "#CD5C5C",
-                            "price": "1500₽"
+                            "color": "#CD5C5C"
                         }
                     ]
                 },
@@ -57,14 +52,12 @@
                         {
                             "name": "Лосось",
                             "level": 2,
-                            "color": "#FF8C00",
-                            "price": "800₽"
+                            "color": "#FF8C00"
                         },
                         {
                             "name": "Тунец",
                             "level": 2,
-                            "color": "#FF7F50",
-                            "price": "850₽"
+                            "color": "#FF7F50"
                         }
                     ]
                 }
@@ -83,14 +76,12 @@
                         {
                             "name": "Тирамису",
                             "level": 2,
-                            "color": "#D2691E",
-                            "price": "350₽"
+                            "color": "#D2691E"
                         },
                         {
                             "name": "Чизкейк",
                             "level": 2,
-                            "color": "#F4A460",
-                            "price": "400₽"
+                            "color": "#F4A460"
                         }
                     ]
                 },
@@ -102,14 +93,12 @@
                         {
                             "name": "Шоколадное",
                             "level": 2,
-                            "color": "#8B4513",
-                            "price": "200₽"
+                            "color": "#8B4513"
                         },
                         {
                             "name": "Ванильное",
                             "level": 2,
-                            "color": "#FAEBD7",
-                            "price": "220₽"
+                            "color": "#FAEBD7"
                         }
                     ]
                 },
@@ -121,14 +110,12 @@
                         {
                             "name": "Клубника",
                             "level": 2,
-                            "color": "#DC143C",
-                            "price": "300₽"
+                            "color": "#DC143C"
                         },
                         {
                             "name": "Манго",
                             "level": 2,
-                            "color": "#FF4500",
-                            "price": "320₽"
+                            "color": "#FF4500"
                         }
                     ]
                 }
@@ -147,14 +134,12 @@
                         {
                             "name": "Эспрессо",
                             "level": 2,
-                            "color": "#6B4226",
-                            "price": "150₽"
+                            "color": "#6B4226"
                         },
                         {
                             "name": "Капучино",
                             "level": 2,
-                            "color": "#D2B48C",
-                            "price": "200₽"
+                            "color": "#D2B48C"
                         }
                     ]
                 },
@@ -166,14 +151,12 @@
                         {
                             "name": "Зеленый",
                             "level": 2,
-                            "color": "#228B22",
-                            "price": "120₽"
+                            "color": "#228B22"
                         },
                         {
                             "name": "Черный",
                             "level": 2,
-                            "color": "#2E8B57",
-                            "price": "130₽"
+                            "color": "#2E8B57"
                         }
                     ]
                 },
@@ -185,14 +168,12 @@
                         {
                             "name": "Апельсиновый",
                             "level": 2,
-                            "color": "#FFA500",
-                            "price": "180₽"
+                            "color": "#FFA500"
                         },
                         {
                             "name": "Яблочный",
                             "level": 2,
-                            "color": "#ADFF2F",
-                            "price": "170₽"
+                            "color": "#ADFF2F"
                         }
                     ]
                 }
@@ -211,14 +192,12 @@
                         {
                             "name": "Крылышки BBQ",
                             "level": 2,
-                            "color": "#B22222",
-                            "price": "600₽"
+                            "color": "#B22222"
                         },
                         {
                             "name": "Картофель фри",
                             "level": 2,
-                            "color": "#FFD700",
-                            "price": "250₽"
+                            "color": "#FFD700"
                         }
                     ]
                 },
@@ -230,14 +209,12 @@
                         {
                             "name": "Сельдь под шубой",
                             "level": 2,
-                            "color": "#8B0000",
-                            "price": "400₽"
+                            "color": "#8B0000"
                         },
                         {
                             "name": "Оливье",
                             "level": 2,
-                            "color": "#9ACD32",
-                            "price": "380₽"
+                            "color": "#9ACD32"
                         }
                     ]
                 },
@@ -249,14 +226,12 @@
                         {
                             "name": "Сырная тарелка",
                             "level": 2,
-                            "color": "#FFD700",
-                            "price": "700₽"
+                            "color": "#FFD700"
                         },
                         {
                             "name": "Мясная нарезка",
                             "level": 2,
-                            "color": "#CD5C5C",
-                            "price": "750₽"
+                            "color": "#CD5C5C"
                         }
                     ]
                 }
