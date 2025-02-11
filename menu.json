@@ -1,292 +1,262 @@
 {
     "menu_options": [
         {
-            "name": "Электроника",
+            "name": "Основные блюда",
             "level": 0,
-            "color": "#ffcc00",
+            "color": "#FF5733",
             "options": [
                 {
-                    "name": "Смартфоны",
+                    "name": "Паста",
                     "level": 1,
-                    "color": "#ff9900",
+                    "color": "#FF8C42",
                     "options": [
                         {
-                            "name": "iPhone 15",
+                            "name": "Карбонара",
                             "level": 2,
-                            "color": "#ff6600"
+                            "color": "#FFA07A",
+                            "price": "450₽"
                         },
                         {
-                            "name": "Samsung Galaxy S23",
+                            "name": "Болоньезе",
                             "level": 2,
-                            "color": "#ff3300"
+                            "color": "#FF6347",
+                            "price": "500₽"
                         },
                         {
-                            "name": "Google Pixel 8",
+                            "name": "Альфредо",
                             "level": 2,
-                            "color": "#ff2200"
+                            "color": "#FF4500",
+                            "price": "550₽"
                         }
                     ]
                 },
                 {
-                    "name": "Ноутбуки",
+                    "name": "Стейки",
                     "level": 1,
-                    "color": "#ff8800",
+                    "color": "#FF6F61",
                     "options": [
                         {
-                            "name": "MacBook Air",
+                            "name": "Рибай",
                             "level": 2,
-                            "color": "#ff5500"
+                            "color": "#E34234",
+                            "price": "1200₽"
                         },
                         {
-                            "name": "Dell XPS",
+                            "name": "Филе Миньон",
                             "level": 2,
-                            "color": "#ff4400"
-                        },
-                        {
-                            "name": "Lenovo ThinkPad",
-                            "level": 2,
-                            "color": "#ff2200"
+                            "color": "#CD5C5C",
+                            "price": "1500₽"
                         }
                     ]
                 },
                 {
-                    "name": "Наушники",
+                    "name": "Рыба",
                     "level": 1,
-                    "color": "#ffaa00",
+                    "color": "#FFA500",
                     "options": [
                         {
-                            "name": "AirPods Pro",
+                            "name": "Лосось",
                             "level": 2,
-                            "color": "#ff9900"
+                            "color": "#FF8C00",
+                            "price": "800₽"
                         },
                         {
-                            "name": "Sony WH-1000XM5",
+                            "name": "Тунец",
                             "level": 2,
-                            "color": "#ff7700"
-                        },
-                        {
-                            "name": "Bose QC 45",
-                            "level": 2,
-                            "color": "#ff5500"
+                            "color": "#FF7F50",
+                            "price": "850₽"
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "Одежда",
+            "name": "Десерты",
             "level": 0,
-            "color": "#99ccff",
+            "color": "#FFD700",
             "options": [
                 {
-                    "name": "Мужская",
+                    "name": "Торты",
                     "level": 1,
-                    "color": "#6699ff",
+                    "color": "#DAA520",
                     "options": [
                         {
-                            "name": "Куртка",
+                            "name": "Тирамису",
                             "level": 2,
-                            "color": "#3366ff"
+                            "color": "#D2691E",
+                            "price": "350₽"
                         },
                         {
-                            "name": "Джинсы",
+                            "name": "Чизкейк",
                             "level": 2,
-                            "color": "#0033ff"
-                        },
-                        {
-                            "name": "Костюм",
-                            "level": 2,
-                            "color": "#0022dd"
+                            "color": "#F4A460",
+                            "price": "400₽"
                         }
                     ]
                 },
                 {
-                    "name": "Женская",
+                    "name": "Мороженое",
                     "level": 1,
-                    "color": "#7799ff",
+                    "color": "#FFDAB9",
                     "options": [
                         {
-                            "name": "Платье",
+                            "name": "Шоколадное",
                             "level": 2,
-                            "color": "#5577ff"
+                            "color": "#8B4513",
+                            "price": "200₽"
                         },
                         {
-                            "name": "Юбка",
+                            "name": "Ванильное",
                             "level": 2,
-                            "color": "#3355ff"
-                        },
-                        {
-                            "name": "Кофта",
-                            "level": 2,
-                            "color": "#1133ff"
+                            "color": "#FAEBD7",
+                            "price": "220₽"
                         }
                     ]
                 },
                 {
-                    "name": "Детская",
+                    "name": "Фрукты",
                     "level": 1,
-                    "color": "#88aaff",
+                    "color": "#FFA07A",
                     "options": [
                         {
-                            "name": "Комбинезон",
+                            "name": "Клубника",
                             "level": 2,
-                            "color": "#6699ff"
+                            "color": "#DC143C",
+                            "price": "300₽"
                         },
                         {
-                            "name": "Шапка",
+                            "name": "Манго",
                             "level": 2,
-                            "color": "#4477ff"
-                        },
-                        {
-                            "name": "Перчатки",
-                            "level": 2,
-                            "color": "#2255ff"
+                            "color": "#FF4500",
+                            "price": "320₽"
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "Бытовая техника",
+            "name": "Напитки",
             "level": 0,
-            "color": "#ffdd99",
+            "color": "#00BFFF",
             "options": [
                 {
-                    "name": "Кухонная",
+                    "name": "Кофе",
                     "level": 1,
-                    "color": "#ffcc77",
+                    "color": "#8B4513",
                     "options": [
                         {
-                            "name": "Холодильник",
+                            "name": "Эспрессо",
                             "level": 2,
-                            "color": "#ffaa55"
+                            "color": "#6B4226",
+                            "price": "150₽"
                         },
                         {
-                            "name": "Микроволновка",
+                            "name": "Капучино",
                             "level": 2,
-                            "color": "#ff8844"
-                        },
-                        {
-                            "name": "Блендер",
-                            "level": 2,
-                            "color": "#ff6622"
+                            "color": "#D2B48C",
+                            "price": "200₽"
                         }
                     ]
                 },
                 {
-                    "name": "Уборка",
+                    "name": "Чай",
                     "level": 1,
-                    "color": "#ffbb66",
+                    "color": "#32CD32",
                     "options": [
                         {
-                            "name": "Пылесос",
+                            "name": "Зеленый",
                             "level": 2,
-                            "color": "#ff9944"
+                            "color": "#228B22",
+                            "price": "120₽"
                         },
                         {
-                            "name": "Робот-пылесос",
+                            "name": "Черный",
                             "level": 2,
-                            "color": "#ff7733"
-                        },
-                        {
-                            "name": "Швабра",
-                            "level": 2,
-                            "color": "#ff5522"
+                            "color": "#2E8B57",
+                            "price": "130₽"
                         }
                     ]
                 },
                 {
-                    "name": "Стирка",
+                    "name": "Соки",
                     "level": 1,
-                    "color": "#ffcc88",
+                    "color": "#FF4500",
                     "options": [
                         {
-                            "name": "Стиральная машина",
+                            "name": "Апельсиновый",
                             "level": 2,
-                            "color": "#ffaa66"
+                            "color": "#FFA500",
+                            "price": "180₽"
                         },
                         {
-                            "name": "Сушильная машина",
+                            "name": "Яблочный",
                             "level": 2,
-                            "color": "#ff8844"
-                        },
-                        {
-                            "name": "Утюг",
-                            "level": 2,
-                            "color": "#ff6622"
+                            "color": "#ADFF2F",
+                            "price": "170₽"
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "Авто",
+            "name": "Закуски",
             "level": 0,
-            "color": "#cccc99",
+            "color": "#8B008B",
             "options": [
                 {
-                    "name": "Запчасти",
+                    "name": "Горячие",
                     "level": 1,
-                    "color": "#aaaa77",
+                    "color": "#FF1493",
                     "options": [
                         {
-                            "name": "Фильтры",
+                            "name": "Крылышки BBQ",
                             "level": 2,
-                            "color": "#888855"
+                            "color": "#B22222",
+                            "price": "600₽"
                         },
                         {
-                            "name": "Масла",
+                            "name": "Картофель фри",
                             "level": 2,
-                            "color": "#666633"
-                        },
-                        {
-                            "name": "Тормозные колодки",
-                            "level": 2,
-                            "color": "#444411"
+                            "color": "#FFD700",
+                            "price": "250₽"
                         }
                     ]
                 },
                 {
-                    "name": "Аксессуары",
+                    "name": "Холодные",
                     "level": 1,
-                    "color": "#bbbb88",
+                    "color": "#FF69B4",
                     "options": [
                         {
-                            "name": "Коврики",
+                            "name": "Сельдь под шубой",
                             "level": 2,
-                            "color": "#999966"
+                            "color": "#8B0000",
+                            "price": "400₽"
                         },
                         {
-                            "name": "Чехлы",
+                            "name": "Оливье",
                             "level": 2,
-                            "color": "#777744"
-                        },
-                        {
-                            "name": "Освежители",
-                            "level": 2,
-                            "color": "#555522"
+                            "color": "#9ACD32",
+                            "price": "380₽"
                         }
                     ]
                 },
                 {
-                    "name": "Автоэлектроника",
+                    "name": "Закуски к вину",
                     "level": 1,
-                    "color": "#ddddaa",
+                    "color": "#DA70D6",
                     "options": [
                         {
-                            "name": "Видеорегистратор",
+                            "name": "Сырная тарелка",
                             "level": 2,
-                            "color": "#bbbb88"
+                            "color": "#FFD700",
+                            "price": "700₽"
                         },
                         {
-                            "name": "Парктроники",
+                            "name": "Мясная нарезка",
                             "level": 2,
-                            "color": "#999966"
-                        },
-                        {
-                            "name": "Навигатор",
-                            "level": 2,
-                            "color": "#777744"
+                            "color": "#CD5C5C",
+                            "price": "750₽"
                         }
                     ]
                 }

@@ -1,6 +1,5 @@
 ﻿let menuData = [];
 let currentPath = [];
-let currentOptions = [];
 let cursorActive = false;
 
 async function loadMenu() {
@@ -13,7 +12,6 @@ function activateCursor() {
     if (!cursorActive) {
         document.getElementById("cursor").setAttribute("raycaster", "objects: .clickable");
         cursorActive = true;
-        console.log("Cursor activated, objects now clickable.");
     }
 }
 
@@ -23,12 +21,9 @@ function showMenu(options) {
 
     options.forEach((option, index) => {
         const x = (index % 3) * 3 - 3;
-        const y = Math.floor(index / 3) * -3 + 1;
+        const y = Math.floor(index / 3) * -3 + 2;
 
-        let shape;
-        if (option.level === 0) shape = "a-box";
-        else if (option.level === 1) shape = "a-sphere";
-        else shape = "a-cylinder";
+        let shape = option.level === 0 ? "a-box" : option.level === 1 ? "a-sphere" : "a-cylinder";
 
         const entity = document.createElement(shape);
         entity.setAttribute("position", `${x} ${y} -4`);
@@ -37,7 +32,6 @@ function showMenu(options) {
 
         entity.addEventListener("click", () => {
             if (cursorActive) {
-                console.log("Clicked on", option.name);
                 navigateMenu(option);
             }
         });
@@ -45,9 +39,9 @@ function showMenu(options) {
         const text = document.createElement("a-text");
         text.setAttribute("value", option.name);
         text.setAttribute("align", "center");
-        text.setAttribute("position", `${x} ${y + 1.5} -4`);
+        text.setAttribute("position", `${x} ${y + 1.2} -4`);
         text.setAttribute("color", "black");
-        text.setAttribute("width", "2");
+        text.setAttribute("width", "4");
 
         scene.appendChild(entity);
         scene.appendChild(text);
@@ -55,7 +49,6 @@ function showMenu(options) {
 
     document.getElementById("back-button").style.display = currentPath.length ? "block" : "none";
     document.getElementById("menu-path").textContent = getPathText();
-    currentOptions = options;
 }
 
 function navigateMenu(option) {
@@ -78,17 +71,18 @@ function showSingleItem(option) {
     entity.setAttribute("height", "2");
 
     const text = document.createElement("a-text");
-    text.setAttribute("value", option.name);
+    text.setAttribute("value", `${option.name}: ${option.price}`);
     text.setAttribute("align", "center");
-    text.setAttribute("position", `0 2.5 -4`);
+    text.setAttribute("position", "0 2.5 -4");
     text.setAttribute("color", "black");
-    text.setAttribute("width", "2");
+    text.setAttribute("width", "5");
 
     scene.appendChild(entity);
     scene.appendChild(text);
     document.getElementById("menu-path").textContent = getPathText();
     document.getElementById("back-button").style.display = "block";
 }
+
 
 function goBack() {
     currentPath.pop();
