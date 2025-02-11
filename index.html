@@ -11,13 +11,12 @@
 </head>
 <body>
     <h1 id="menu-path">Главное меню</h1>
-
+    <button id="save-button" onclick="activateCursor()">Сохранить меню</button>
     <button id="back-button" onclick="goBack()" style="display: none;">Назад</button>
-    <button onclick="saveMenu()">Сохранить меню</button>
 
     <a-scene>
         <a-camera position="0 2 5">
-            <a-cursor color="black"></a-cursor>
+            <a-cursor id="cursor" color="black" raycaster="objects: .clickable"></a-cursor>
         </a-camera>
         <a-entity id="menu-container"></a-entity>
     </a-scene>

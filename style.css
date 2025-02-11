@@ -8,8 +8,9 @@ h1 {
     margin-top: 10px;
 }
 
-#back-button, button {
-    margin: 10px;
+button {
+    position: absolute;
+    z-index: 10;
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
@@ -19,6 +20,19 @@ h1 {
     border-radius: 5px;
 }
 
-    #back-button:hover, button:hover {
+    button:hover {
         background-color: #0056b3;
     }
+
+#save-button {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#back-button {
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}

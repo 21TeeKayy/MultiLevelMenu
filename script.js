@@ -1,6 +1,7 @@
 ﻿let menuData = [];
 let currentPath = [];
 let currentOptions = [];
+let cursorActive = false;
 
 async function loadMenu() {
     const response = await fetch("menu.json");
@@ -8,15 +9,22 @@ async function loadMenu() {
     showMenu(menuData.menu_options);
 }
 
+function activateCursor() {
+    if (!cursorActive) {
+        document.getElementById("cursor").setAttribute("raycaster", "objects: .clickable");
+        cursorActive = true;
+        console.log("Cursor activated, objects now clickable.");
+    }
+}
+
 function showMenu(options) {
     const scene = document.getElementById("menu-container");
-    scene.innerHTML = ""; // Очистка сцены перед обновлением
+    scene.innerHTML = "";
 
     options.forEach((option, index) => {
-        const x = (index % 3) * 3 - 3; // Размещение в сетке
+        const x = (index % 3) * 3 - 3;
         const y = Math.floor(index / 3) * -3 + 1;
 
-        // Выбираем форму в зависимости от уровня
         let shape;
         if (option.level === 0) shape = "a-box";
         else if (option.level === 1) shape = "a-sphere";
@@ -30,11 +38,15 @@ function showMenu(options) {
         entity.setAttribute("height", "1");
         entity.setAttribute("radius", "0.7");
         entity.setAttribute("class", "clickable");
+        entity.setAttribute("data-raycastable", "true");
 
-        // Добавляем обработчик клика
-        entity.addEventListener("click", () => navigateMenu(option));
+        entity.addEventListener("click", () => {
+            if (cursorActive) {
+                console.log("Clicked on", option.name);
+                navigateMenu(option);
+            }
+        });
 
-        // Добавляем текстовую метку
         const text = document.createElement("a-text");
         text.setAttribute("value", option.name);
         text.setAttribute("align", "center");
@@ -70,7 +82,6 @@ function showSingleItem(option) {
     entity.setAttribute("radius", "1");
     entity.setAttribute("height", "2");
 
-    // Добавляем текстовое название предмета
     const text = document.createElement("a-text");
     text.setAttribute("value", option.name);
     text.setAttribute("align", "center");
