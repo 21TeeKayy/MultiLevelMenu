@@ -33,12 +33,7 @@ function showMenu(options) {
         const entity = document.createElement(shape);
         entity.setAttribute("position", `${x} ${y} -4`);
         entity.setAttribute("color", option.color);
-        entity.setAttribute("depth", "1");
-        entity.setAttribute("width", "1");
-        entity.setAttribute("height", "1");
-        entity.setAttribute("radius", "0.7");
         entity.setAttribute("class", "clickable");
-        entity.setAttribute("data-raycastable", "true");
 
         entity.addEventListener("click", () => {
             if (cursorActive) {

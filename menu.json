@@ -19,23 +19,55 @@
                             "name": "Samsung Galaxy S23",
                             "level": 2,
                             "color": "#ff3300"
+                        },
+                        {
+                            "name": "Google Pixel 8",
+                            "level": 2,
+                            "color": "#ff2200"
                         }
                     ]
                 },
                 {
                     "name": "Ноутбуки",
                     "level": 1,
-                    "color": "#ff9900",
+                    "color": "#ff8800",
                     "options": [
                         {
                             "name": "MacBook Air",
                             "level": 2,
-                            "color": "#ff6600"
+                            "color": "#ff5500"
                         },
                         {
                             "name": "Dell XPS",
                             "level": 2,
-                            "color": "#ff3300"
+                            "color": "#ff4400"
+                        },
+                        {
+                            "name": "Lenovo ThinkPad",
+                            "level": 2,
+                            "color": "#ff2200"
+                        }
+                    ]
+                },
+                {
+                    "name": "Наушники",
+                    "level": 1,
+                    "color": "#ffaa00",
+                    "options": [
+                        {
+                            "name": "AirPods Pro",
+                            "level": 2,
+                            "color": "#ff9900"
+                        },
+                        {
+                            "name": "Sony WH-1000XM5",
+                            "level": 2,
+                            "color": "#ff7700"
+                        },
+                        {
+                            "name": "Bose QC 45",
+                            "level": 2,
+                            "color": "#ff5500"
                         }
                     ]
                 }
@@ -60,6 +92,201 @@
                             "name": "Джинсы",
                             "level": 2,
                             "color": "#0033ff"
+                        },
+                        {
+                            "name": "Костюм",
+                            "level": 2,
+                            "color": "#0022dd"
+                        }
+                    ]
+                },
+                {
+                    "name": "Женская",
+                    "level": 1,
+                    "color": "#7799ff",
+                    "options": [
+                        {
+                            "name": "Платье",
+                            "level": 2,
+                            "color": "#5577ff"
+                        },
+                        {
+                            "name": "Юбка",
+                            "level": 2,
+                            "color": "#3355ff"
+                        },
+                        {
+                            "name": "Кофта",
+                            "level": 2,
+                            "color": "#1133ff"
+                        }
+                    ]
+                },
+                {
+                    "name": "Детская",
+                    "level": 1,
+                    "color": "#88aaff",
+                    "options": [
+                        {
+                            "name": "Комбинезон",
+                            "level": 2,
+                            "color": "#6699ff"
+                        },
+                        {
+                            "name": "Шапка",
+                            "level": 2,
+                            "color": "#4477ff"
+                        },
+                        {
+                            "name": "Перчатки",
+                            "level": 2,
+                            "color": "#2255ff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Бытовая техника",
+            "level": 0,
+            "color": "#ffdd99",
+            "options": [
+                {
+                    "name": "Кухонная",
+                    "level": 1,
+                    "color": "#ffcc77",
+                    "options": [
+                        {
+                            "name": "Холодильник",
+                            "level": 2,
+                            "color": "#ffaa55"
+                        },
+                        {
+                            "name": "Микроволновка",
+                            "level": 2,
+                            "color": "#ff8844"
+                        },
+                        {
+                            "name": "Блендер",
+                            "level": 2,
+                            "color": "#ff6622"
+                        }
+                    ]
+                },
+                {
+                    "name": "Уборка",
+                    "level": 1,
+                    "color": "#ffbb66",
+                    "options": [
+                        {
+                            "name": "Пылесос",
+                            "level": 2,
+                            "color": "#ff9944"
+                        },
+                        {
+                            "name": "Робот-пылесос",
+                            "level": 2,
+                            "color": "#ff7733"
+                        },
+                        {
+                            "name": "Швабра",
+                            "level": 2,
+                            "color": "#ff5522"
+                        }
+                    ]
+                },
+                {
+                    "name": "Стирка",
+                    "level": 1,
+                    "color": "#ffcc88",
+                    "options": [
+                        {
+                            "name": "Стиральная машина",
+                            "level": 2,
+                            "color": "#ffaa66"
+                        },
+                        {
+                            "name": "Сушильная машина",
+                            "level": 2,
+                            "color": "#ff8844"
+                        },
+                        {
+                            "name": "Утюг",
+                            "level": 2,
+                            "color": "#ff6622"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Авто",
+            "level": 0,
+            "color": "#cccc99",
+            "options": [
+                {
+                    "name": "Запчасти",
+                    "level": 1,
+                    "color": "#aaaa77",
+                    "options": [
+                        {
+                            "name": "Фильтры",
+                            "level": 2,
+                            "color": "#888855"
+                        },
+                        {
+                            "name": "Масла",
+                            "level": 2,
+                            "color": "#666633"
+                        },
+                        {
+                            "name": "Тормозные колодки",
+                            "level": 2,
+                            "color": "#444411"
+                        }
+                    ]
+                },
+                {
+                    "name": "Аксессуары",
+                    "level": 1,
+                    "color": "#bbbb88",
+                    "options": [
+                        {
+                            "name": "Коврики",
+                            "level": 2,
+                            "color": "#999966"
+                        },
+                        {
+                            "name": "Чехлы",
+                            "level": 2,
+                            "color": "#777744"
+                        },
+                        {
+                            "name": "Освежители",
+                            "level": 2,
+                            "color": "#555522"
+                        }
+                    ]
+                },
+                {
+                    "name": "Автоэлектроника",
+                    "level": 1,
+                    "color": "#ddddaa",
+                    "options": [
+                        {
+                            "name": "Видеорегистратор",
+                            "level": 2,
+                            "color": "#bbbb88"
+                        },
+                        {
+                            "name": "Парктроники",
+                            "level": 2,
+                            "color": "#999966"
+                        },
+                        {
+                            "name": "Навигатор",
+                            "level": 2,
+                            "color": "#777744"
                         }
                     ]
                 }
